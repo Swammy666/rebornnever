@@ -885,10 +885,10 @@ local aimbot_section2 = aa:Section({Name = "Desyncs", Side = "Right", size = 100
 local button = rage:Button({Name = "Enable", 
 Callback = function() 
 getgenv().Key = Enum.KeyCode.Q
-getgenv().Prediction = 1.37
+getgenv().Prediction = 0.11
     getgenv().AirshotFunccc = false
     getgenv().Tracer = true
-    getgenv().Partz = "UpperTorso" -- LowerTorso, HumanoidRootPart,Head,UpperTorso
+    getgenv().Partz = "HumanoidRootPart" -- LowerTorso, HumanoidRootPart,Head,UpperTorso
         local Locking = false
     
 
